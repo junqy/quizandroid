@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(QUIZ_TAG, "Wywołane zostało: onPause");
+        Log.d(QUIZ_TAG, "Wywołane zostało: onStop");
     }
 
     @Override
